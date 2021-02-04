@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 /**
  * main - declaration of char
@@ -13,15 +14,15 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("%d, %s\n", n, "is positive");
+		printf("%d %s\n", n, "is positive");
 	}
 	if (n == 0)
 	{
-		printf("%d, %s\n", n, "is zero");
+		printf("%d %s\n", n, "is zero");
 	}
 	if (n < 0)
 	{
-		printf("%d, %s\n", n, "is negative");
+		printf("%d %s\n", n, "is negative");
 	}
 	return (0);
 }
