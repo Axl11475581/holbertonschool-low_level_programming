@@ -6,8 +6,6 @@
  */
 int main(void)
 {
-	char c = "Holberton"
-
-	printf("%d\n", c);
+	printf("%s\n", "Holberton");
 	return (0);
 }
